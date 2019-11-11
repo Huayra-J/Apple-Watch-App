@@ -11,7 +11,21 @@
             <objects>
                 <controller identifier="GenderSelectionInterfaceController" id="AgC-eL-Hgc" customClass="GenderSelectionInterfaceController" customModule="test_WatchKit_Extension">
                     <items>
-                        <label height="37" alignment="left" text="Gender?" id="HvA-81-tpM"/>
+                        <label height="36" alignment="left" text="Gender?" id="HvA-81-tpM"/>
+                        <group width="1" alignment="left" id="5o4-BC-xGJ">
+                            <items>
+                                <button width="70" height="70" alignment="left" backgroundImage="female" id="ktI-zC-fmu">
+                                    <connections>
+                                        <segue destination="0sJ-QC-uCj" kind="push" id="xCO-sF-Rl3"/>
+                                    </connections>
+                                </button>
+                                <button width="70" height="70" alignment="right" backgroundImage="male" id="sfu-pw-VR6">
+                                    <connections>
+                                        <segue destination="0sJ-QC-uCj" kind="push" id="FYk-jp-Co0"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Skip" id="5eM-J1-O3P">
                             <connections>
                                 <action selector="GenderNext" destination="AgC-eL-Hgc" id="wd1-7j-zDQ"/>
@@ -21,7 +35,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-132.51282051282053" y="108.53846153846155"/>
+            <point key="canvasLocation" x="-133" y="122"/>
         </scene>
         <!--HeightWeightInterfaceController-->
         <scene sceneID="0hf-nL-VTR">
@@ -162,4 +176,11 @@
             <point key="canvasLocation" x="909" y="2008"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="female" width="100" height="100"/>
+        <image name="male" width="100" height="100"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="j3f-fg-mC5"/>
+    </inferredMetricsTieBreakers>
 </document>
