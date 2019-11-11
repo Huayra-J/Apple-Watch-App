@@ -130,25 +130,53 @@
                         <label alignment="left" text="Record My Food" id="kYa-Qm-SVf"/>
                         <group width="1" alignment="left" id="lhv-aK-8Ke">
                             <items>
-                                <button width="66" height="79" alignment="left" backgroundImage="unnamed" id="4ZF-P3-yKd"/>
-                                <button width="67" height="79" alignment="right" backgroundImage="unnamed-4" id="1N2-x5-ulJ"/>
+                                <button width="66" height="79" alignment="left" backgroundImage="unnamed" id="4ZF-P3-yKd">
+                                    <connections>
+                                        <action selector="SodaBTN" destination="GVo-JY-BYJ" id="7R2-US-wdD"/>
+                                    </connections>
+                                </button>
+                                <button width="67" height="79" alignment="right" backgroundImage="unnamed-4" id="1N2-x5-ulJ">
+                                    <connections>
+                                        <action selector="CoffeBTN" destination="GVo-JY-BYJ" id="CRI-On-zWI"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="74M-OQ-e0v">
                             <items>
-                                <button width="66" height="69" alignment="left" backgroundImage="unnamed-5" id="Wgq-jH-Prk"/>
-                                <button width="67" height="68" alignment="right" backgroundImage="unnamed-8" id="VQZ-zk-qE7"/>
+                                <button width="67" height="68" alignment="right" backgroundImage="unnamed-8" id="VQZ-zk-qE7">
+                                    <connections>
+                                        <action selector="FrenchfriesBTN" destination="GVo-JY-BYJ" id="q0u-Kt-Ev7"/>
+                                    </connections>
+                                </button>
+                                <button width="66" height="69" alignment="left" backgroundImage="unnamed-5" id="Wgq-jH-Prk">
+                                    <connections>
+                                        <action selector="CupcakeBTN" destination="GVo-JY-BYJ" id="zuz-5L-SP4"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="mAq-S8-RlX">
                             <items>
-                                <button width="66" height="74" alignment="left" backgroundImage="unnamed-12" id="q1V-ie-Eal"/>
-                                <button width="68" height="74" alignment="right" backgroundImage="unnamed-13" id="h7a-QD-IQa"/>
+                                <button width="66" height="74" alignment="left" backgroundImage="unnamed-12" id="q1V-ie-Eal">
+                                    <connections>
+                                        <action selector="IcecreamBTN" destination="GVo-JY-BYJ" id="2nc-73-TDv"/>
+                                    </connections>
+                                </button>
+                                <button width="68" height="74" alignment="right" backgroundImage="unnamed-13" id="h7a-QD-IQa">
+                                    <connections>
+                                        <action selector="pizza" destination="GVo-JY-BYJ" id="Tdi-6k-6tz"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="Dur-W3-9xO">
                             <items>
-                                <button width="65" height="64" alignment="left" backgroundImage="unnamed-11" id="ac6-A5-Omf"/>
+                                <button width="65" height="64" alignment="left" backgroundImage="unnamed-11" id="ac6-A5-Omf">
+                                    <connections>
+                                        <action selector="Hotdogbutton" destination="GVo-JY-BYJ" id="tzz-7q-3wF"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
@@ -180,26 +208,58 @@
                         <label alignment="left" text="Record My Exercise" id="M7f-e0-5nL"/>
                         <group width="1" alignment="left" id="1WX-P4-P9J">
                             <items>
-                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-1" id="brf-rb-FCX"/>
-                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-2" id="9Tz-HL-z2i"/>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-1" id="brf-rb-FCX">
+                                    <connections>
+                                        <action selector="swimBTN" destination="Tkt-b1-1xA" id="ppi-dB-XoP"/>
+                                    </connections>
+                                </button>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-2" id="9Tz-HL-z2i">
+                                    <connections>
+                                        <action selector="tennisBTN" destination="Tkt-b1-1xA" id="pPB-KI-zvs"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="b5A-el-7GO">
                             <items>
-                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-3" id="w5E-5p-Cyk"/>
-                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-6" id="6c9-u7-x83"/>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-3" id="w5E-5p-Cyk">
+                                    <connections>
+                                        <action selector="tennisBTN" destination="Tkt-b1-1xA" id="iBN-DY-9AN"/>
+                                    </connections>
+                                </button>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-6" id="6c9-u7-x83">
+                                    <connections>
+                                        <action selector="cycling" destination="Tkt-b1-1xA" id="O5T-kp-hb3"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="Tkf-La-Cq4">
                             <items>
-                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-7" id="LHK-1D-rdW"/>
-                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-9" id="X0e-a0-NnJ"/>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-7" id="LHK-1D-rdW">
+                                    <connections>
+                                        <action selector="soccerBTN" destination="Tkt-b1-1xA" id="EVK-u4-6KE"/>
+                                    </connections>
+                                </button>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-9" id="X0e-a0-NnJ">
+                                    <connections>
+                                        <action selector="lifting" destination="Tkt-b1-1xA" id="7VV-il-stg"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="075-Xk-aRE">
                             <items>
-                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-10" id="FRk-ZN-I9k"/>
-                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-14" id="e7y-6z-hwu"/>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-14" id="e7y-6z-hwu">
+                                    <connections>
+                                        <action selector="running" destination="Tkt-b1-1xA" id="2L9-bu-Ry4"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-10" id="FRk-ZN-I9k">
+                                    <connections>
+                                        <action selector="gynastic" destination="Tkt-b1-1xA" id="L5C-97-gw9"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>

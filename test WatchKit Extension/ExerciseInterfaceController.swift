@@ -11,6 +11,35 @@ import Foundation
 
 class ExerciseInterfaceController: WKInterfaceController {
 
+    @IBAction func swimBTN() {
+    }
+    
+    
+    @IBAction func tttennisBTN() {
+    }//table tennis
+    
+    
+    @IBAction func tennisBTN() {
+    }//tennis
+    
+    
+    
+    @IBAction func cycling() {
+    }//cycling
+    
+    
+    @IBAction func soccerBTN() {
+    }//soccer button
+    
+    @IBAction func lifting() {
+    }
+    
+    @IBAction func gynastic() {
+    }
+    
+    @IBAction func running() {
+    }
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
