@@ -22,6 +22,7 @@
 		F7FAA9BF23784D3800718E48 /* HomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FAA9BE23784D3800718E48 /* HomeInterfaceController.swift */; };
 		F7FAA9C123784D7E00718E48 /* EatInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FAA9C023784D7E00718E48 /* EatInterfaceController.swift */; };
 		F7FAA9C323784D8B00718E48 /* ExerciseInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FAA9C223784D8B00718E48 /* ExerciseInterfaceController.swift */; };
+		F7FAA9FB23793AF100718E48 /* DashboardInferfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FAA9FA23793AF100718E48 /* DashboardInferfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		F7FAA9BE23784D3800718E48 /* HomeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInterfaceController.swift; sourceTree = "<group>"; };
 		F7FAA9C023784D7E00718E48 /* EatInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatInterfaceController.swift; sourceTree = "<group>"; };
 		F7FAA9C223784D8B00718E48 /* ExerciseInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseInterfaceController.swift; sourceTree = "<group>"; };
+		F7FAA9FA23793AF100718E48 /* DashboardInferfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInferfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				F7FAA9B823784BF900718E48 /* HeightWeightInterfaceController.swift */,
 				F7FAA9BA23784C8300718E48 /* Goal1Interface.swift */,
 				F7FAA9BC23784C9100718E48 /* Goal2Interface.swift */,
+				F7FAA9FA23793AF100718E48 /* DashboardInferfaceController.swift */,
 				F7FAA9BE23784D3800718E48 /* HomeInterfaceController.swift */,
 				F7FAA9C023784D7E00718E48 /* EatInterfaceController.swift */,
 				F7FAA9C223784D8B00718E48 /* ExerciseInterfaceController.swift */,
@@ -277,6 +280,7 @@
 			files = (
 				F7FAA9BB23784C8300718E48 /* Goal1Interface.swift in Sources */,
 				F7FAA9A4237848D300718E48 /* NotificationController.swift in Sources */,
+				F7FAA9FB23793AF100718E48 /* DashboardInferfaceController.swift in Sources */,
 				F7FAA9C123784D7E00718E48 /* EatInterfaceController.swift in Sources */,
 				F7FAA9B923784BF900718E48 /* HeightWeightInterfaceController.swift in Sources */,
 				F7FAA9B72378498E00718E48 /* DOBInterfaceController.swift in Sources */,

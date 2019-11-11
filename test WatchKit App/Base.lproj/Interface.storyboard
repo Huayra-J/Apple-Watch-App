@@ -61,7 +61,7 @@
                         <label alignment="left" text="By..." id="ZlY-xK-cFw"/>
                         <button width="1" alignment="left" title="OK" id="rqF-aO-bmY">
                             <connections>
-                                <segue destination="FzD-tT-IEq" kind="push" id="2wj-Jd-xg8"/>
+                                <segue destination="lOH-qS-7qF" kind="push" id="Rzp-4L-3Qz"/>
                             </connections>
                         </button>
                     </items>
@@ -88,18 +88,73 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-132" y="881"/>
+            <point key="canvasLocation" x="153" y="878"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="iEE-G5-RI3">
+            <objects>
+                <controller id="M9t-th-rAK">
+                    <items>
+                        <label alignment="left" text="You need to burn    days left to finish your goal" id="bi3-Zc-yHk"/>
+                        <label width="66" height="48" alignment="center" text="KJ" textAlignment="center" id="aZL-GE-ZiG"/>
+                        <label height="32" alignment="left" text="from exercise" textAlignment="justified" numberOfLines="2" id="fBD-14-tfO"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Add a record" id="Qm7-Pb-vsa"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="391" y="877"/>
+        </scene>
+        <!--DashboardInterfaceController-->
+        <scene sceneID="dvu-Lh-38o">
+            <objects>
+                <controller identifier="DashboardInterfaceController" id="lOH-qS-7qF" customClass="DashboardInterfaceController" customModule="test_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="You can have    days left to finish your goal" id="pSw-lb-dcS"/>
+                        <label width="66" height="48" alignment="center" text="KJ" textAlignment="center" id="YOp-UT-bjo"/>
+                        <label height="32" alignment="left" text="more from food" textAlignment="justified" numberOfLines="2" id="59J-6P-Mia"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Add a record" id="xuk-mo-OaW">
+                            <connections>
+                                <segue destination="FzD-tT-IEq" kind="push" id="Cip-Fz-Mc7"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-133.38461538461539" y="876.58974358974365"/>
         </scene>
         <!--EatInterfaceController-->
         <scene sceneID="Hfc-7I-TgH">
             <objects>
                 <controller identifier="EatInterfaceController" id="GVo-JY-BYJ" customClass="EatInterfaceController" customModule="test_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Label" id="kYa-Qm-SVf"/>
+                        <label alignment="left" text="Record My Food" id="kYa-Qm-SVf"/>
+                        <group width="1" alignment="left" id="lhv-aK-8Ke">
+                            <items>
+                                <button width="66" height="79" alignment="left" backgroundImage="unnamed" id="4ZF-P3-yKd"/>
+                                <button width="67" height="79" alignment="right" backgroundImage="unnamed-4" id="1N2-x5-ulJ"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="74M-OQ-e0v">
+                            <items>
+                                <button width="66" height="69" alignment="left" backgroundImage="unnamed-5" id="Wgq-jH-Prk"/>
+                                <button width="67" height="68" alignment="right" backgroundImage="unnamed-8" id="VQZ-zk-qE7"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="mAq-S8-RlX">
+                            <items>
+                                <button width="66" height="74" alignment="left" backgroundImage="unnamed-12" id="q1V-ie-Eal"/>
+                                <button width="68" height="74" alignment="right" backgroundImage="unnamed-13" id="h7a-QD-IQa"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Dur-W3-9xO">
+                            <items>
+                                <button width="65" height="64" alignment="left" backgroundImage="unnamed-11" id="ac6-A5-Omf"/>
+                            </items>
+                        </group>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-132" y="1255"/>
+            <point key="canvasLocation" x="-133.38461538461539" y="1314.2307692307693"/>
         </scene>
         <!--Goal1InterfaceController-->
         <scene sceneID="lBt-51-mi3">
@@ -122,11 +177,35 @@
             <objects>
                 <controller identifier="ExerciseInterfaceController" id="Tkt-b1-1xA" customClass="ExerciseInterfaceController" customModule="test_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Label" id="M7f-e0-5nL"/>
+                        <label alignment="left" text="Record My Exercise" id="M7f-e0-5nL"/>
+                        <group width="1" alignment="left" id="1WX-P4-P9J">
+                            <items>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-1" id="brf-rb-FCX"/>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-2" id="9Tz-HL-z2i"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="b5A-el-7GO">
+                            <items>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-3" id="w5E-5p-Cyk"/>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-6" id="6c9-u7-x83"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Tkf-La-Cq4">
+                            <items>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-7" id="LHK-1D-rdW"/>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-9" id="X0e-a0-NnJ"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="075-Xk-aRE">
+                            <items>
+                                <button width="60" height="60" alignment="left" backgroundImage="unnamed-10" id="FRk-ZN-I9k"/>
+                                <button width="61" height="59" alignment="right" backgroundImage="unnamed-14" id="e7y-6z-hwu"/>
+                            </items>
+                        </group>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="153" y="1255"/>
+            <point key="canvasLocation" x="153" y="1294"/>
         </scene>
         <!--DOBInterfaceController-->
         <scene sceneID="llf-cf-SKc">
@@ -179,6 +258,21 @@
     <resources>
         <image name="female" width="100" height="100"/>
         <image name="male" width="100" height="100"/>
+        <image name="unnamed" width="194" height="306"/>
+        <image name="unnamed-1" width="206" height="206"/>
+        <image name="unnamed-10" width="208" height="210"/>
+        <image name="unnamed-11" width="374" height="258"/>
+        <image name="unnamed-12" width="188" height="370"/>
+        <image name="unnamed-13" width="232" height="290"/>
+        <image name="unnamed-14" width="206" height="208"/>
+        <image name="unnamed-2" width="212" height="208"/>
+        <image name="unnamed-3" width="206" height="210"/>
+        <image name="unnamed-4" width="220" height="316"/>
+        <image name="unnamed-5" width="236" height="296"/>
+        <image name="unnamed-6" width="206" height="210"/>
+        <image name="unnamed-7" width="208" height="204"/>
+        <image name="unnamed-8" width="248" height="306"/>
+        <image name="unnamed-9" width="210" height="206"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="j3f-fg-mC5"/>
