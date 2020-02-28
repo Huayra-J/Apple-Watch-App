@@ -1,0 +1,81 @@
+//
+//  InterfaceController.swift
+//  Help Me Lose Weight! WatchKit Extension
+//
+//  Created by Jerry Wang on 11/11/19.
+//  Copyright © 2019 CDU IT Code Fair. All rights reserved.
+//
+
+import WatchKit
+import Foundation
+
+
+class EatInterfaceController: WKInterfaceController {
+
+    
+    let userDefault = UserDefaults.standard
+    
+    var energyBalance: Int = 0
+    
+    override func awake(withContext context: Any?) {
+        super.awake(withContext: context)
+        
+        energyBalance = userDefault.integer(forKey: "energy_Balance")
+    }
+    
+    override func willActivate() {
+        // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
+    }
+    
+    override func didDeactivate() {
+        // This method is called when watch view controller is no longer visible
+        super.didDeactivate()
+    }
+    
+    //Action happening when the button is being pressed
+    
+    @IBAction func drinkButtonTouch() {
+        energyBalance += 100
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+    @IBAction func coffeeButtonTouch() {
+        energyBalance += 200
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+    @IBAction func cakeButtonTouch() {
+        energyBalance += 300
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+    @IBAction func FrenchFriesButtonTouch() {
+        energyBalance += 400
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+    @IBAction func iceCreamButtonTouch() {
+        energyBalance += 500
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+    @IBAction func pizzaButtonTouch() {
+        energyBalance += 600
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+    @IBAction func hotDogButtonTouch() {
+        energyBalance += 1700
+        userDefault.set(energyBalance, forKey: "energy_Balance")
+        self.pop()
+    }
+    
+
+}

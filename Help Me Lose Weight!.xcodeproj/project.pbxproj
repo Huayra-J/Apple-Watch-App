@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EA46C36237C11BE005B9279 /* StartingPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA46C35237C11BE005B9279 /* StartingPageController.swift */; };
+		F778888C237955530018502A /* Help Me Lose Weight! WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F778888B237955530018502A /* Help Me Lose Weight! WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7788892237955530018502A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7788890237955530018502A /* Interface.storyboard */; };
+		F7788894237955560018502A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7788893237955560018502A /* Assets.xcassets */; };
+		F778889B237955560018502A /* Help Me Lose Weight! WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F778889A237955560018502A /* Help Me Lose Weight! WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F77888A0237955560018502A /* GenderSelectionInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F778889F237955560018502A /* GenderSelectionInterfaceController.swift */; };
+		F77888A2237955560018502A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888A1237955560018502A /* ExtensionDelegate.swift */; };
+		F77888A4237955560018502A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888A3237955560018502A /* NotificationController.swift */; };
+		F77888A6237955570018502A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77888A5237955570018502A /* Assets.xcassets */; };
+		F77888B72379557A0018502A /* DOBInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888B62379557A0018502A /* DOBInterfaceController.swift */; };
+		F77888BB237955980018502A /* GoalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888BA237955980018502A /* GoalInterfaceController.swift */; };
+		F77888BD237955A80018502A /* RecordInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888BC237955A80018502A /* RecordInterfaceController.swift */; };
+		F77888BF237955B10018502A /* DashInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888BE237955B10018502A /* DashInterfaceController.swift */; };
+		F77888C1237955D40018502A /* EatInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888C0237955D40018502A /* EatInterfaceController.swift */; };
+		F77888C3237955E70018502A /* ExerciseInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77888C2237955E70018502A /* ExerciseInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F778888D237955530018502A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7788881237955530018502A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F778888A237955530018502A;
+			remoteInfo = "Help Me Lose Weight! WatchKit App";
+		};
+		F778889C237955560018502A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7788881237955530018502A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7788899237955560018502A;
+			remoteInfo = "Help Me Lose Weight! WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F77888AE237955570018502A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F778889B237955560018502A /* Help Me Lose Weight! WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77888B2237955570018502A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F778888C237955530018502A /* Help Me Lose Weight! WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EA46C35237C11BE005B9279 /* StartingPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPageController.swift; sourceTree = "<group>"; };
+		F7788887237955530018502A /* Help Me Lose Weight!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Me Lose Weight!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F778888B237955530018502A /* Help Me Lose Weight! WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Me Lose Weight! WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7788891237955530018502A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F7788893237955560018502A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7788895237955560018502A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F778889A237955560018502A /* Help Me Lose Weight! WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Help Me Lose Weight! WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F778889F237955560018502A /* GenderSelectionInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSelectionInterfaceController.swift; sourceTree = "<group>"; };
+		F77888A1237955560018502A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F77888A3237955560018502A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F77888A5237955570018502A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77888A7237955570018502A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F77888A8237955570018502A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F77888B62379557A0018502A /* DOBInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DOBInterfaceController.swift; sourceTree = "<group>"; };
+		F77888BA237955980018502A /* GoalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalInterfaceController.swift; sourceTree = "<group>"; };
+		F77888BC237955A80018502A /* RecordInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordInterfaceController.swift; sourceTree = "<group>"; };
+		F77888BE237955B10018502A /* DashInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashInterfaceController.swift; sourceTree = "<group>"; };
+		F77888C0237955D40018502A /* EatInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatInterfaceController.swift; sourceTree = "<group>"; };
+		F77888C2237955E70018502A /* ExerciseInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7788897237955560018502A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7788880237955530018502A = {
+			isa = PBXGroup;
+			children = (
+				F778888F237955530018502A /* Help Me Lose Weight! WatchKit App */,
+				F778889E237955560018502A /* Help Me Lose Weight! WatchKit Extension */,
+				F7788888237955530018502A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7788888237955530018502A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7788887237955530018502A /* Help Me Lose Weight!.app */,
+				F778888B237955530018502A /* Help Me Lose Weight! WatchKit App.app */,
+				F778889A237955560018502A /* Help Me Lose Weight! WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F778888F237955530018502A /* Help Me Lose Weight! WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F7788890237955530018502A /* Interface.storyboard */,
+				F7788893237955560018502A /* Assets.xcassets */,
+				F7788895237955560018502A /* Info.plist */,
+			);
+			path = "Help Me Lose Weight! WatchKit App";
+			sourceTree = "<group>";
+		};
+		F778889E237955560018502A /* Help Me Lose Weight! WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1EA46C35237C11BE005B9279 /* StartingPageController.swift */,
+				F778889F237955560018502A /* GenderSelectionInterfaceController.swift */,
+				F77888B62379557A0018502A /* DOBInterfaceController.swift */,
+				F77888BA237955980018502A /* GoalInterfaceController.swift */,
+				F77888BE237955B10018502A /* DashInterfaceController.swift */,
+				F77888BC237955A80018502A /* RecordInterfaceController.swift */,
+				F77888C0237955D40018502A /* EatInterfaceController.swift */,
+				F77888C2237955E70018502A /* ExerciseInterfaceController.swift */,
+				F77888A1237955560018502A /* ExtensionDelegate.swift */,
+				F77888A3237955560018502A /* NotificationController.swift */,
+				F77888A5237955570018502A /* Assets.xcassets */,
+				F77888A7237955570018502A /* Info.plist */,
+				F77888A8237955570018502A /* PushNotificationPayload.apns */,
+			);
+			path = "Help Me Lose Weight! WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7788886237955530018502A /* Help Me Lose Weight! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77888B3237955570018502A /* Build configuration list for PBXNativeTarget "Help Me Lose Weight!" */;
+			buildPhases = (
+				F7788885237955530018502A /* Resources */,
+				F77888B2237955570018502A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F778888E237955530018502A /* PBXTargetDependency */,
+			);
+			name = "Help Me Lose Weight!";
+			productName = "Help Me Lose Weight!";
+			productReference = F7788887237955530018502A /* Help Me Lose Weight!.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F778888A237955530018502A /* Help Me Lose Weight! WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77888AF237955570018502A /* Build configuration list for PBXNativeTarget "Help Me Lose Weight! WatchKit App" */;
+			buildPhases = (
+				F7788889237955530018502A /* Resources */,
+				F77888AE237955570018502A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F778889D237955560018502A /* PBXTargetDependency */,
+			);
+			name = "Help Me Lose Weight! WatchKit App";
+			productName = "Help Me Lose Weight! WatchKit App";
+			productReference = F778888B237955530018502A /* Help Me Lose Weight! WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F7788899237955560018502A /* Help Me Lose Weight! WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77888AB237955570018502A /* Build configuration list for PBXNativeTarget "Help Me Lose Weight! WatchKit Extension" */;
+			buildPhases = (
+				F7788896237955560018502A /* Sources */,
+				F7788897237955560018502A /* Frameworks */,
+				F7788898237955560018502A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Help Me Lose Weight! WatchKit Extension";
+			productName = "Help Me Lose Weight! WatchKit Extension";
+			productReference = F778889A237955560018502A /* Help Me Lose Weight! WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7788881237955530018502A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "CDU IT Code Fair";
+				TargetAttributes = {
+					F7788886237955530018502A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F778888A237955530018502A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F7788899237955560018502A = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = F7788884237955530018502A /* Build configuration list for PBXProject "Help Me Lose Weight!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7788880237955530018502A;
+			productRefGroup = F7788888237955530018502A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7788886237955530018502A /* Help Me Lose Weight! */,
+				F778888A237955530018502A /* Help Me Lose Weight! WatchKit App */,
+				F7788899237955560018502A /* Help Me Lose Weight! WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7788885237955530018502A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7788889237955530018502A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7788894237955560018502A /* Assets.xcassets in Resources */,
+				F7788892237955530018502A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7788898237955560018502A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77888A6237955570018502A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7788896237955560018502A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA46C36237C11BE005B9279 /* StartingPageController.swift in Sources */,
+				F77888A4237955560018502A /* NotificationController.swift in Sources */,
+				F77888BB237955980018502A /* GoalInterfaceController.swift in Sources */,
+				F77888C1237955D40018502A /* EatInterfaceController.swift in Sources */,
+				F77888A2237955560018502A /* ExtensionDelegate.swift in Sources */,
+				F77888BD237955A80018502A /* RecordInterfaceController.swift in Sources */,
+				F77888B72379557A0018502A /* DOBInterfaceController.swift in Sources */,
+				F77888C3237955E70018502A /* ExerciseInterfaceController.swift in Sources */,
+				F77888BF237955B10018502A /* DashInterfaceController.swift in Sources */,
+				F77888A0237955560018502A /* GenderSelectionInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F778888E237955530018502A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F778888A237955530018502A /* Help Me Lose Weight! WatchKit App */;
+			targetProxy = F778888D237955530018502A /* PBXContainerItemProxy */;
+		};
+		F778889D237955560018502A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7788899237955560018502A /* Help Me Lose Weight! WatchKit Extension */;
+			targetProxy = F778889C237955560018502A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7788890237955530018502A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7788891237955530018502A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77888A9237955570018502A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77888AA237955570018502A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77888AC237955570018502A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPLF3SS8K6;
+				INFOPLIST_FILE = "Help Me Lose Weight! WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codefair.Help-Me-Lose-Weight-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		F77888AD237955570018502A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPLF3SS8K6;
+				INFOPLIST_FILE = "Help Me Lose Weight! WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codefair.Help-Me-Lose-Weight-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		F77888B0237955570018502A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPLF3SS8K6;
+				IBSC_MODULE = Help_Me_Lose_Weight__WatchKit_Extension;
+				INFOPLIST_FILE = "Help Me Lose Weight! WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "codefair.Help-Me-Lose-Weight-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		F77888B1237955570018502A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LPLF3SS8K6;
+				IBSC_MODULE = Help_Me_Lose_Weight__WatchKit_Extension;
+				INFOPLIST_FILE = "Help Me Lose Weight! WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "codefair.Help-Me-Lose-Weight-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		F77888B4237955570018502A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPLF3SS8K6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codefair.Help-Me-Lose-Weight-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F77888B5237955570018502A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LPLF3SS8K6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "codefair.Help-Me-Lose-Weight-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7788884237955530018502A /* Build configuration list for PBXProject "Help Me Lose Weight!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77888A9237955570018502A /* Debug */,
+				F77888AA237955570018502A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77888AB237955570018502A /* Build configuration list for PBXNativeTarget "Help Me Lose Weight! WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77888AC237955570018502A /* Debug */,
+				F77888AD237955570018502A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77888AF237955570018502A /* Build configuration list for PBXNativeTarget "Help Me Lose Weight! WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77888B0237955570018502A /* Debug */,
+				F77888B1237955570018502A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77888B3237955570018502A /* Build configuration list for PBXNativeTarget "Help Me Lose Weight!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77888B4237955570018502A /* Debug */,
+				F77888B5237955570018502A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7788881237955530018502A /* Project object */;
+}
